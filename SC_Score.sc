@@ -18,8 +18,8 @@ Dests { classvar <>addr1, <>addr2, <>addr3;
 		StartUp.add{
 			// Error messages to Post window when I am sending to IP that doesn't exist.
 			addr1 = NetAddr("localhost", 57120);
-			addr2 = NetAddr("192.127.0.3", 57130);
-			addr3 = NetAddr("192.127.0.4", 57140);
+			//addr2 = NetAddr("192.127.0.3", 57130);
+			//addr3 = NetAddr("192.127.0.4", 57140);
 		}
 	}
 }
