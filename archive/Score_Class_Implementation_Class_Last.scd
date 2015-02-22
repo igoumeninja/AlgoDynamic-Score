@@ -13,6 +13,7 @@ Score_Definition_Implementation.goToTrack(2)
 Score_Definition_Implementation.goToTrack(1)
 
 
+OSCFunc.trace(true)
 Aris Bezas 12:05 AM Feb 28, 2013
 */
 
@@ -30,7 +31,6 @@ Score_Definition {
 	*removeAllResps {
 		~track_1_Resp_1 = RespTags.do('/track_1', 1, nil);~track_1_Resp_2 = RespTags.do('/track_1', 2, nil);
 		~track_1_Resp_3 = RespTags.do('/track_1', 3, nil);~track_1_Resp_4 = RespTags.do('/track_1', 4, nil);
-
 		~track_2_Resp_1 = RespTags.do('/track_2', 1, nil);~track_2_Resp_2 = RespTags.do('/track_2', 2, nil);
 		~track_2_Resp_3 = RespTags.do('/track_2', 3, nil);~track_2_Resp_4 = RespTags.do('/track_2', 4, nil);
 		~track_2_Resp_5 = RespTags.do('/track_2', 5, nil);
